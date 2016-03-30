@@ -27,8 +27,7 @@ module Lita
       end
 
       def format_reply(message:)
-        "I'm sorry, I can't do that @#{message.user.mention_name} " \
-          "http://bit.ly/11FZRaq"
+        ":hal9000: I'm sorry, I can't do that @#{message.user.mention_name} "
       end
 
     end
